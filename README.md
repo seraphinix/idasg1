@@ -9,4 +9,5 @@ My design will be very simple. The first page will show off their current world 
 ## Features
 Navigation bar - Allows users to go to pages they would like to
 Links to other pages - Allows users to leave this page and direct them to the site they are interested in
-
+Embedded video - Allows users to watch their latest music video
+Icons - Users can click on these icons to redirect them to other pages, for example, instagram icons

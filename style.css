@@ -1,0 +1,381 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background: #262626;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+a{
+    padding: 25px;
+    width: 100px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#section1{
+    height: 105vh;
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+}
+#redirect{
+    color: #FFEB9A;
+    background-color: black;
+    font-size: 18px;
+    white-space: nowrap;
+    font-weight: bold;
+    margin-left: 80%;
+    font-family:'Gloucester MT';
+}
+#itzycover{
+    width: 60%;
+    margin-left: 20%;  
+}
+#section2{
+    height: 100vh;
+    background-color: #27015e;
+    display: inline-block;
+    width: 100%;
+}
+.flexbox-about{
+    display: flex;
+    width: 92%;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    justify-content: space-between;
+    padding: 4%;
+}
+#wins{
+    width: 48%;
+    margin-left: 2%;
+}
+#about{
+    color: #FFEB9A;
+    font-family:'Gloucester MT';
+    width: 42%;
+    font-size: 28px;
+    margin-top: -6%;
+    margin-left: 6%;
+}
+#awardheader{
+    width: 48%;
+    font-size: 40px;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+#awardlist{
+    color: #FFEB9A;
+    width: 50%;
+    margin-top: -28%;
+    margin-left: -16%;
+    font-size: 28px;
+    text-align: center;
+    font-family:'Gloucester MT';
+}
+#moreinfo{
+    color: #FFEB9A;
+    width: 50%;
+    margin-top: 4%;
+    margin-left: 45%;
+    font-size: 24px;
+    font-family:'Gloucester MT';
+}
+#moreinfo:hover{
+    text-decoration: underline;
+    color: #9AE0FF;
+}
+#section3{
+    height: 100vh;
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+}
+.flexbox-release{
+    display: flex;
+    width: 92%;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    justify-content: space-between;
+    padding: 4%;
+    margin: 0;
+}
+#mvinfo{
+    color: #FFEB9A;
+    font-family:'Gloucester MT';
+    width: 38%;
+    font-size: 28px;
+    margin-top: -4%;
+    margin-left: 1%;
+}
+#album{
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    color: #FFEB9A;
+}
+#purchase{
+    color: #FFEB9A;
+    width: 50%;
+    margin-top: -6%;
+    font-size: 24px;
+}
+#jypshop{
+    color: #FFEB9A;
+    width: 50%;
+    margin-top: -4%;
+    margin-left: 24%;
+    font-size: 24px;
+    font-family:'Gloucester MT';
+}
+#jypshop:hover{
+    text-decoration: underline;
+    color: #9AE0FF;
+}
+#section4{
+    height: 100vh;
+    background-color: #27015e;
+    display: inline-block;
+    width: 100%;
+}
+.flexbox-tour{
+    display: flex;
+    width: 92%;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    justify-content: space-between;
+    padding: 4%;
+}
+#location{
+    width: 48%;
+    font-family:'Gloucester MT';
+    font-size: 60px;
+    justify-content: center;
+    text-align: center;
+    color: #F5A4E5;
+}
+#locationlist{
+    color: #D2D2D2;
+    width: 50%;
+    margin-top: -34%;
+    margin-left: -16%;
+    font-size: 40px;
+    text-align: center;
+    font-family:'Gloucester MT';
+}
+#getmerch{
+    color: #FFEB9A;
+    width: 55%;
+    margin-top: 4%;
+    margin-left: -20%;
+    font-size: 24px;
+    font-family:'Gloucester MT';
+}
+#getmerch:hover{
+    text-decoration: underline;
+    color: #9AE0FF;
+}
+#gettickets{
+    color: #FFEB9A;
+    width: 55%;
+    margin-top: 10%;
+    margin-left: 40%;
+    font-size: 24px;
+    font-family:'Gloucester MT';
+}
+#gettickets:hover{
+    text-decoration: underline;
+    color: #9AE0FF;
+}
+#section5{
+    height: 100vh;
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+}
+.flexbox-contact{
+    display: flex;
+    width: 92%;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    justify-content: space-between;
+    padding: 4%;
+}
+#contactform{
+    color: #FFEB9A;
+    font-family:'Gloucester MT';
+    width: 38%;
+    font-size: 28px;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+#organisation{
+    width: 100%;
+    height: 80px;
+    background-color: #D2D2D2;
+    padding: 12px;
+    margin: 1px;
+    margin-top: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border: black;
+    border-radius: 2px;
+}
+#email{
+    width: 100%;
+    height: 80px;
+    background-color: #D2D2D2;
+    padding: 12px;
+    margin: 1px;
+    margin-top: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border: black;
+    border-radius: 2px;
+}
+#context{
+    width: 100%;
+    height: 80px;
+    background-color: #D2D2D2;
+    padding: 12px;
+    margin: 1px;
+    margin-top: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border: #9AE0FF;
+    border-radius: 4px;
+}
+#submitform{
+    height: 80px;
+    width: 100%;
+    background-color: #D2D2D2;
+    padding: 6px;
+    margin: 1px;
+    margin-top: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border: #9AE0FF;
+    border-radius: 4px;
+}
+#submitform:hover{
+    background-color: #9AE0FF;
+}
+#logolist{
+    display: flex;
+    flex-wrap: wrap;
+    color: #D2D2D2;
+    width: 50%;
+    margin-top: -30%;
+    margin-left: 40%;
+    font-size: 50px;
+    text-align: center;
+    font-family:'Gloucester MT';
+}
+#instagramlogo{
+    color: #cf23cf;
+}
+#instagramlogo:hover{
+    color: #9AE0FF;
+}
+#twitterlogo{
+    color: #1DA1F2;
+}
+#twitterlogo:hover{
+    color: #9AE0FF;
+}
+#globelogo{
+    color:#F5A4E5;
+}
+#globelogo:hover{
+    color: #9AE0FF;
+}
+#youtubelogo{
+    color: red;
+}
+#youtubelogo:hover{
+    color: #9AE0FF;
+}
+#musiclogo{
+    color: white;
+}
+#musiclogo:hover{
+    color: #9AE0FF;
+}
+#spotifylogo{
+    color: #1DB954;
+}
+#spotifylogo:hover{
+    color: #9AE0FF;
+}
+
+
+.itzyheader{
+    font-size: 40px;
+    font-family:'Gloucester MT';
+    color: #FFEB9A;
+    margin-top: 90px;
+    text-align: center;
+    padding: 0;
+}
+#aboutheader{
+    font-size: 40px;
+    font-family:'Gloucester MT';
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0;
+}
+#releaseheader{
+    font-size: 40px;
+    font-family:'Gloucester MT';
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0;
+}
+#tourheader{
+    font-size: 40px;
+    font-family:'Gloucester MT';
+    color: #FFEB9A;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0;
+}
+#contactheader{
+    font-size: 40px;
+    font-family:'Gloucester MT';
+    color: #FFEB9A;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0;
+}
